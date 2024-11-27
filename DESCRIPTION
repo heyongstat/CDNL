@@ -1,0 +1,16 @@
+Package: CDNL
+Type: Package
+Title: Cooperative Differential Network Learning
+Version: 0.1.0
+Authors@R: 
+    person(given = "Dingzi", 
+           family = "Guo", 
+           role = c("aut", "cre"), 
+           email = "guodingzi@mail.sdu.edu.cn")
+Author: Dingzi Guo [aut, cre]
+Maintainer: Dingzi Guo <guodingzi@mail.sdu.edu.cn>
+Description: Differential network modeling, or network comparison, has become an essential tool for identifying differences in brain connectivity between healthy and affected individuals. We propose a Cooperative Differential Network Learning (CDNL) method for the spatial by temporal matrix-valued fMRI data from multiple research centers, aimed at achieving better joint estimation of multiple differential networks.
+License: GPL-3
+Encoding: UTF-8
+Imports: SGL, Matrix, foreach, doParallel, DensParcorr, mnormt, expm
+Depends: R (>= 3.5.0)

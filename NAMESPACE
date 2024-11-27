@@ -1,0 +1,14 @@
+importFrom("stats", "runif")
+importFrom("stats", "cov", "rnorm")
+
+import(SGL)
+import(Matrix)
+import(foreach)
+import(doParallel)
+import(DensParcorr)
+import(mnormt)
+import(expm)
+
+export(DensPcorr)
+export(CDNL)
+
